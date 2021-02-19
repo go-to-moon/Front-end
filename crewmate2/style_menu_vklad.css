@@ -1,0 +1,86 @@
+/*Меню*/
+.vertikalnoe-menuu a
+{
+    height:50px;
+    width: 200px; /* Ширина */
+    padding: 0px;
+    margin-left: 0px;
+    margin-top:95px;
+    margin-bottom: -95px;
+    font-size:12pt;
+    text-decoration: none; /* Убираем подчёркивание */
+    color: #000; /* Цвет текста */
+}
+.vertikalnoe-menuu a
+{
+    background-color: #ddd;
+    border:0;
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.vertikalnoe-menuu a:hover
+{
+    background-color: #ccc; /* Темно-серый фон при наведении курсора */
+    text-decoration: none; /* Убираем подчёркивание */
+    color: #000; /* Цвет текста */
+}
+
+/*Вкладки*/
+.vkladka
+{
+position:relative;
+margin: auto;
+top: 50px;
+/*overflow: hidden;*/
+border: 8px solid #ccc;
+background-color: #f1f1f1;
+width: auto;
+text-align: center;
+
+
+}
+.vkladka button
+{
+background-color: inherit;
+float: center;
+border: none;
+outline: none;
+cursor: pointer;
+padding: 14px 16px;
+transition: 0.3s;
+font-size: 17px;
+}
+.vkladka button:hover
+{
+background-color: #ddd;
+}
+.vkladka button.active
+{
+background-color: #ccc;
+}
+.soderj_vkladki
+{
+display: none;
+padding: 6px 12px;
+border: 1px solid rgb(0, 0, 0);
+position: absolute;
+top: 17%;
+left: 250px;
+right: 350px;
+}
+table
+{
+background-color: rgb(100, 100, 100);
+border:1 solid black;
+table-layout: fixed;
+}
+
+
+.poisk
+{
+    border:4px solid #00cfff;
+    border-radius: 10px;
+}
+

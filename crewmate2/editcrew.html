@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Редактировать экипаж</title>
+</head>
+
+
+<style>
+	.name{
+		position: absolute;
+		top: 50px;
+		left: 470px;
+		border: 1px solid black;
+		padding:0 10px;
+
+	}
+
+
+	.imya{
+		position: absolute;
+		top: 200px;
+		left: 350px;
+	}
+
+	.family{
+		position: absolute;
+		top: 250px;
+		left: 350px;
+	}
+
+	.data{
+		position: absolute;
+		top: 300px;
+		left:350px;
+	}
+
+	.pol{
+		position: absolute;
+		top: 350px;
+		left: 350px;
+	}
+
+	.strana{
+		position: absolute;
+		top: 400px;
+		left: 350px;
+	}
+
+	.spec{
+		position: absolute;
+		top: 450px;
+		left: 350px;
+	}
+
+
+	.imyaf {
+		position: absolute;
+		left: 550px;
+		top: 215px;
+	}
+
+	.familyf{
+		position: absolute;
+		left: 550px;
+		top: 265px;
+	}
+
+	.dataf{
+		position: absolute;
+		left: 550px;
+		top: 315px;
+	}
+
+	.polf{
+		position: absolute;
+		left: 550px;
+		top: 365px;
+	}
+
+	.countryf{
+		position: absolute;
+		top: 415px;
+		left: 550px;
+	}
+
+	.specf{
+		position: absolute;
+		top: 465px;
+		left: 550px;
+	}
+
+	.save{
+		position: absolute;
+		top: 550px;
+		left: 550px;
+	}
+
+	.cancel{
+		position: absolute;
+		top: 600px;
+		left:553px;
+	}
+
+	.moreimage{
+		position: absolute;
+		width: 25px;
+	}
+	.more{
+		position: absolute;
+		top: 70px;
+		left: 800px;
+	}
+
+	.backimg{
+		width: 55px;
+		height: 55px;
+
+	}
+</style>
+
+<body>
+
+	<div class = "name">
+		<h1>Изменения данных</h1>
+	</div>
+
+
+	<div class="imya">
+		<p>Имя</p>
+	</div>
+
+	<div class = "family">
+		<p>Фамилия</p>
+	</div>
+
+	<div class = "data">
+		<p>Дата</p>
+	</div>
+
+	<div class="pol">
+		<p>Пол</p>
+	</div>
+
+	<div class="strana">
+		<p>Страна</p>
+	</div>
+
+	<div class="spec">
+		<p>Специальность</p>
+	</div>
+
+
+	<input type="text" class="imyaf">
+	<input type="text" class="familyf">
+	<input type="text" class="dataf">
+	<input type="text" class="polf">
+	<input type="text" class="countryf">
+	<input type="text" class="specf">
+
+	<button class="save">Сохранить изменения </button>
+	<button class="cancel">Отменить изменения </button>
+
+	<div class="more">
+		<a href="" onclick ="myFunction()">
+
+		<img src="dotz.png" class = "moreimage">
+	</div>
+
+	<div class="back">
+		<a href="crew.php">	
+		<img src="back.png" class="backimg">
+	</div>
+
+<script>
+function myFunction() {
+  var txt;
+  var r = confirm("Удалить?");
+  if (r == true) {
+    txt = "Удалено";
+
+    //Клд удаления данныъ их crewmate 
+  } else {
+    txt = "Изменения отменены";
+  }
+  document.getElementById("demo").innerHTML = txt;
+
+}
+</script>
+
+</body>
+</html>
