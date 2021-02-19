@@ -1,0 +1,197 @@
+th 
+{
+text-align: center;
+}
+td 
+{
+text-align: right;
+font-size: 14pt;
+padding-right: 10px;
+}
+table
+{
+padding-right: 20px;
+text-align: right;
+margin:auto;
+width: 100%;
+float:right;
+margin-bottom: 50px;
+}
+
+.butt_pic
+{
+position: relative;
+float:right;
+top: 50px;
+right:4px;
+
+
+}
+
+.butt_pic:focus
+{
+outline: none;
+}
+
+#page1
+{
+border: 1px solid black;
+}
+
+#list1{
+position: relative;
+margin-top:0px;
+float: right;
+}
+
+.filtr
+{
+position:absolute;
+left:105%;
+
+}
+
+.pol
+{
+width: 300px;
+height: 30px;
+margin: 3px;
+}
+
+/*Поп аппп*/
+
+.open-button-add {
+   background-color: #555;
+   color: white;
+   padding: 16px 20px;
+   border: none;
+   cursor: pointer;
+   opacity: 0.8;
+   position: fixed;
+   bottom: 23px;
+   right: 28px;
+   width: 280px;
+   margin-right: 290px;
+   }
+
+ .open-button-upd {
+   background-color: #555;
+   color: white;
+   padding: 16px 20px;
+   border: none;
+   cursor: pointer;
+   opacity: 0.8;
+   position: fixed;
+   bottom: 23px;
+   right: 28px;
+   width: 280px;
+ }
+
+ .form-popup {
+   display: none;
+   position: fixed;
+   margin-top:-5% ;
+   padding-left: 30%;
+   padding-right: 20%;
+   text-align: center;
+   z-index: 9;
+ }
+
+ .form-popupAdd {
+     display: none;
+     position: fixed;
+     margin-top:-5% ;
+     padding-left: 30%;
+     padding-right: 20%;
+     z-index: 9;
+     text-align: center;
+}
+
+ .form-containerAdd {
+   max-width: 280px;
+   padding: 10px 10px;
+   border: 3px solid black;
+   background-color: rgb(199, 185, 185);
+ }
+
+ .form-containerUpd {
+   max-width: 280px;
+   padding: 10px;
+   border: 3px solid black;
+   background-color: rgb(199, 185, 185);
+ }
+
+ /* Добавление */
+ .form-containerAdd input, .form-containerAdd select {
+   width: 90%;
+   padding: 15px;
+   margin: 5px 0 22px 0;
+   border: none;
+   background: #f1f1f1;
+ }
+
+ .form-containerAdd input:focus, .form-containerAdd select:focus {
+     background-color: #ddd;
+     outline: none;
+ }
+
+ .form-containerAdd .btn {
+   background-color: #4CAF50;
+   color: white;
+   padding: 16px 20px;
+   border: none;
+   cursor: pointer;
+   width: 100%;
+   margin-bottom:10px;
+   opacity: 0.8;
+ }
+
+ .form-containerAdd .cancel {
+   background-color: red;
+ }
+
+ .form-containerAdd .btn:hover, .open-button:hover {
+   opacity: 1;
+ }
+
+
+ /* Изменение */
+
+.form-containerUpd input, .form-containerUpd select{
+    width: 90%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+}
+
+.form-containerUpd input:focus, .form-containerUpd select:focus{
+    background-color: #ddd;
+    outline: none;
+}
+
+
+ .form-containerUpd .btn {
+   background-color: #4CAF50;
+   color: white;
+   padding: 16px 20px;
+   border: none;
+   cursor: pointer;
+   width: 100%;
+   margin-bottom:10px;
+   opacity: 0.8;
+ }
+
+ .form-containerUpd .cancel {
+   background-color: red;
+ }
+
+ .form-containerUpd .btn:hover, .open-button:hover {
+   opacity: 1;
+ }
+
+
+
+ .shadow {
+  box-shadow: 0 0 0 9999px rgba(0,0,0, 0.3);
+}
